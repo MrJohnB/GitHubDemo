@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concord.GitHubDemo.ConsoleApp", "src\Concord.GitHubDemo.ConsoleApp\Concord.GitHubDemo.ConsoleApp.csproj", "{507176D3-130D-46BF-BCD6-EE013BC6CE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concord.GitHubDemo.Services", "src\Concord.GitHubDemo.Services\Concord.GitHubDemo.Services.csproj", "{7F67215D-B648-4511-9F63-2F38B0BDA02F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{507176D3-130D-46BF-BCD6-EE013BC6CE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507176D3-130D-46BF-BCD6-EE013BC6CE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507176D3-130D-46BF-BCD6-EE013BC6CE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507176D3-130D-46BF-BCD6-EE013BC6CE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F67215D-B648-4511-9F63-2F38B0BDA02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F67215D-B648-4511-9F63-2F38B0BDA02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F67215D-B648-4511-9F63-2F38B0BDA02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F67215D-B648-4511-9F63-2F38B0BDA02F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
